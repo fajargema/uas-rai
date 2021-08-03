@@ -91,13 +91,13 @@
 
                 $data = [
                     ['SMK01', 'ANDI', 'KEPALA SEKOLAH', 'JAKARTA', 'S3', '3A', 25000000, $timestamp],
-                    ['SMK02', 'ANTON', 'Wakil Kurikulim', 'SURABAYA', 'S2', '2A', 25000000, $timestamp],
-                    ['SMK03', 'DEWI', 'Wakil Kesiswaan', 'SEMARANG', 'S1', '1A', 25000000, $timestamp],
-                    ['SMK04', 'SINTA', 'Wakil Sarpras', 'BOGOR', 'S1', '3B', 25000000, $timestamp],
-                    ['SMK05', 'RUDI', 'Wakil Humas', 'DEPOK', 'S2', '3C', 25000000, $timestamp],
-                    ['SMK06', 'BUDI', 'Kepala Program', 'SUKABUMI', 'S2', '1A', 25000000, $timestamp],
-                    ['SMK07', 'NOVI', 'Tata Usaha', 'CILACAP', 'D3', '3B', 25000000, $timestamp],
-                    ['SMK08', 'CITRA', 'Pembina Osis', 'BANTEN', 'D3', '3B', 25000000, $timestamp],
+                    ['SMK02', 'ANTON', 'Wakil Kurikulim', 'SURABAYA', 'S2', '2A', 20000000, $timestamp],
+                    ['SMK03', 'DEWI', 'Wakil Kesiswaan', 'SEMARANG', 'S1', '1A', 10000000, $timestamp],
+                    ['SMK04', 'SINTA', 'Wakil Sarpras', 'BOGOR', 'S1', '3B', 10000000, $timestamp],
+                    ['SMK05', 'RUDI', 'Wakil Humas', 'DEPOK', 'S2', '3C', 10000000, $timestamp],
+                    ['SMK06', 'BUDI', 'Kepala Program', 'SUKABUMI', 'S2', '1A', 15000000, $timestamp],
+                    ['SMK07', 'NOVI', 'Tata Usaha', 'CILACAP', 'D3', '3B', 5000000, $timestamp],
+                    ['SMK08', 'CITRA', 'Pembina Osis', 'BANTEN', 'D3', '3B', 2500000, $timestamp],
                 ];
                 $query = "INSERT INTO mahasiswa (kode, nama, jabatan, alamat, pendidikan, gol, gaji, created_at) VALUES 
             (?, ?, ?, ?, ?, ?, ?, ?)";
